@@ -1,0 +1,14 @@
+/Users/gokhan/Desktop/Projects/HR_Examples/bin/Debug/net7.0/HR_Examples
+/Users/gokhan/Desktop/Projects/HR_Examples/bin/Debug/net7.0/HR_Examples.deps.json
+/Users/gokhan/Desktop/Projects/HR_Examples/bin/Debug/net7.0/HR_Examples.runtimeconfig.json
+/Users/gokhan/Desktop/Projects/HR_Examples/bin/Debug/net7.0/HR_Examples.dll
+/Users/gokhan/Desktop/Projects/HR_Examples/bin/Debug/net7.0/HR_Examples.pdb
+/Users/gokhan/Desktop/Projects/HR_Examples/obj/Debug/net7.0/HR_Examples.GeneratedMSBuildEditorConfig.editorconfig
+/Users/gokhan/Desktop/Projects/HR_Examples/obj/Debug/net7.0/HR_Examples.AssemblyInfoInputs.cache
+/Users/gokhan/Desktop/Projects/HR_Examples/obj/Debug/net7.0/HR_Examples.AssemblyInfo.cs
+/Users/gokhan/Desktop/Projects/HR_Examples/obj/Debug/net7.0/HR_Examples.csproj.CoreCompileInputs.cache
+/Users/gokhan/Desktop/Projects/HR_Examples/obj/Debug/net7.0/HR_Examples.dll
+/Users/gokhan/Desktop/Projects/HR_Examples/obj/Debug/net7.0/refint/HR_Examples.dll
+/Users/gokhan/Desktop/Projects/HR_Examples/obj/Debug/net7.0/HR_Examples.pdb
+/Users/gokhan/Desktop/Projects/HR_Examples/obj/Debug/net7.0/HR_Examples.genruntimeconfig.cache
+/Users/gokhan/Desktop/Projects/HR_Examples/obj/Debug/net7.0/ref/HR_Examples.dll
