@@ -9,7 +9,8 @@ namespace HackerRankAlgorithms
         {
             Console.Clear();
             
-            birthdayCakeCandlesTest();
+            // birthdayCakeCandlesTest();
+            // timeConversionTest();
         }
 
         private static void birthdayCakeCandlesTest()
@@ -21,6 +22,24 @@ namespace HackerRankAlgorithms
             int output = BirthdayCakeCandles.birthdayCakeCandles(candles);
 
             if (output == 2)
+            {
+                Console.WriteLine("Test passed!");
+            }
+            else
+            {
+                Console.WriteLine("Test failed!");
+            }
+        }
+
+        private static void timeConversionTest()
+        {
+            Console.WriteLine("Running TimeConversion:");
+
+            string input = "07:05:45PM";
+
+            string output = TimeConversion.timeConversion(input);
+
+            if (output == "19:05:45")
             {
                 Console.WriteLine("Test passed!");
             }
