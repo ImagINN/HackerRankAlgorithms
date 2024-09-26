@@ -11,7 +11,8 @@ namespace HackerRankAlgorithms
 
             // birthdayCakeCandlesTest();
             // timeConversionTest();
-            gradingStudents();
+            // gradingStudents();
+            numberLineJumps();
         }
 
         private static void birthdayCakeCandlesTest()
@@ -58,12 +59,6 @@ namespace HackerRankAlgorithms
 
             List<int> output = GradingStudents.gradingStudents(input);
 
-            Console.WriteLine("Output values:");
-            foreach (var grade in output)
-            {
-                Console.WriteLine(grade);
-            }
-
             if (output.SequenceEqual(new List<int> { 75, 67, 40, 33 }))
             {
                 Console.WriteLine("Test passed!");
@@ -71,6 +66,22 @@ namespace HackerRankAlgorithms
             else
             {
                 Console.WriteLine("Test failed!");
+            }
+        }
+
+        private static void numberLineJumps()
+        {
+            int x1 = 0, x2 = 4, v1 = 3, v2 = 2;
+
+            string output = NumberLineJumps.kangaroo(x1, v1, x2, v2);
+
+            if (output == "YES")
+            {
+                Console.WriteLine("Test passed!");
+            }
+            else
+            {
+                Console.WriteLine("Test passed!");
             }
         }
     }
