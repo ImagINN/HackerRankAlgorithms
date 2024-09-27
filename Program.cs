@@ -13,6 +13,7 @@ namespace HackerRankAlgorithms
             // timeConversionTest();
             // gradingStudents();
             // numberLineJumps();
+            applesAndOranges();
         }
 
         private static void birthdayCakeCandlesTest()
@@ -83,6 +84,16 @@ namespace HackerRankAlgorithms
             {
                 Console.WriteLine("Test passed!");
             }
+        }
+
+        private static void applesAndOranges()
+        {
+            int s = 7, t = 10, a = 4, b = 12;
+            
+            List<int> apples = new List<int> { 2, 3, -4 };
+            List<int> oranges = new List<int> { 3, -2, -4 };
+
+            AppleAndOrange.countApplesAndOranges(s, t, a, b, apples, oranges);
         }
     }
 }
