@@ -12,7 +12,7 @@ namespace HackerRankAlgorithms
             // birthdayCakeCandlesTest();
             // timeConversionTest();
             // gradingStudents();
-            numberLineJumps();
+            // numberLineJumps();
         }
 
         private static void birthdayCakeCandlesTest()
