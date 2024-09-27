@@ -13,7 +13,8 @@ namespace HackerRankAlgorithms
             // timeConversionTest();
             // gradingStudents();
             // numberLineJumps();
-            applesAndOranges();
+            // applesAndOranges();
+            betweenTwoSets();
         }
 
         private static void birthdayCakeCandlesTest()
@@ -82,14 +83,31 @@ namespace HackerRankAlgorithms
             }
             else
             {
-                Console.WriteLine("Test passed!");
+                Console.WriteLine("Test failed!");
+            }
+        }
+
+        private static void betweenTwoSets()
+        {
+            List<int> a = new List<int> {2, 6}; 
+            List<int> b = new List<int> {24, 36};
+
+            int output = BetweenTwoSets.getTotalX(a, b);
+
+            if (output == 2)
+            {
+                Console.WriteLine("Test passed!");                
+            }
+            else
+            {
+                Console.WriteLine("Test failed!");
             }
         }
 
         private static void applesAndOranges()
         {
             int s = 7, t = 10, a = 4, b = 12;
-            
+
             List<int> apples = new List<int> { 2, 3, -4 };
             List<int> oranges = new List<int> { 3, -2, -4 };
 
