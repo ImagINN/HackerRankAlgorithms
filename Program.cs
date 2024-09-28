@@ -16,7 +16,8 @@ namespace HackerRankAlgorithms
             // applesAndOranges();
             // betweenTwoSets();
             // breakingTheRecords();
-            subarrayDivision();
+            // subarrayDivision();
+            divisibleSumPairs();
         }
 
         private static void birthdayCakeCandlesTest()
@@ -148,6 +149,25 @@ namespace HackerRankAlgorithms
             else
             {
                 Console.WriteLine("Test fail!");
+            }
+        }
+    
+        private static void divisibleSumPairs()
+        {
+            List<int> ar = new List<int> {1, 2, 3, 4, 5, 6};
+            int n = 6;
+            int k = 5;
+
+            int output = DivisibleSumPairs.divisibleSumPairs(n, k, ar);
+            Console.WriteLine(output);
+
+            if (output == 3)
+            {
+                Console.WriteLine("Test passed!");
+            }
+            else
+            {
+                Console.WriteLine("Test failed!");
             }
         }
     }
