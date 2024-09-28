@@ -15,7 +15,8 @@ namespace HackerRankAlgorithms
             // numberLineJumps();
             // applesAndOranges();
             // betweenTwoSets();
-            breakingTheRecords();
+            // breakingTheRecords();
+            subarrayDivision();
         }
 
         private static void birthdayCakeCandlesTest()
@@ -123,6 +124,24 @@ namespace HackerRankAlgorithms
             Console.WriteLine(output[0] + " " + output[1]);
 
             if (output[0] == 2 && output[1] == 4)
+            {
+                Console.WriteLine("Test passed!");
+            }
+            else
+            {
+                Console.WriteLine("Test fail!");
+            }
+        }
+    
+        private static void subarrayDivision()
+        {
+            List<int> s = new List<int> { 2, 2, 1, 3, 2 };
+            int d = 4;
+            int m = 2;
+
+            int output = SubarrayDivision.birthday(s, d, m);
+
+            if (output == 2)
             {
                 Console.WriteLine("Test passed!");
             }
