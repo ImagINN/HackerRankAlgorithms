@@ -14,7 +14,8 @@ namespace HackerRankAlgorithms
             // gradingStudents();
             // numberLineJumps();
             // applesAndOranges();
-            betweenTwoSets();
+            // betweenTwoSets();
+            breakingTheRecords();
         }
 
         private static void birthdayCakeCandlesTest()
@@ -112,6 +113,23 @@ namespace HackerRankAlgorithms
             List<int> oranges = new List<int> { 3, -2, -4 };
 
             AppleAndOrange.countApplesAndOranges(s, t, a, b, apples, oranges);
+        }
+    
+        private static void breakingTheRecords()
+        {
+            List<int> scores = new List<int> { 10, 5, 20, 20, 4, 5, 2, 25, 1 };
+            List<int> output = BreakingTheRecords.breakingRecords(scores);
+
+            Console.WriteLine(output[0] + " " + output[1]);
+
+            if (output[0] == 2 && output[1] == 4)
+            {
+                Console.WriteLine("Test passed!");
+            }
+            else
+            {
+                Console.WriteLine("Test fail!");
+            }
         }
     }
 }
