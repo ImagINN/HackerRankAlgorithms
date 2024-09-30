@@ -19,7 +19,8 @@ namespace HackerRankAlgorithms
             // subarrayDivision();
             // divisibleSumPairs();
             // fizzBuzz();
-            usernameChanges();
+            // usernameChanges();
+            longestSubarray();
         }
 
         private static void birthdayCakeCandlesTest()
@@ -187,6 +188,14 @@ namespace HackerRankAlgorithms
             {
                 Console.WriteLine(result);
             }
+        }
+
+        private static void longestSubarray()
+        {
+            List<int> arr = new List<int> { 1, 2, 2, 3, 4, 2, 2, 3, 3 };
+
+            int output = LongestSubarray.longestSubarray(arr);
+            Console.WriteLine(output);
         }
     }
 }
