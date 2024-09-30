@@ -17,7 +17,9 @@ namespace HackerRankAlgorithms
             // betweenTwoSets();
             // breakingTheRecords();
             // subarrayDivision();
-            divisibleSumPairs();
+            // divisibleSumPairs();
+            // fizzBuzz();
+            usernameChanges();
         }
 
         private static void birthdayCakeCandlesTest()
@@ -92,14 +94,14 @@ namespace HackerRankAlgorithms
 
         private static void betweenTwoSets()
         {
-            List<int> a = new List<int> {2, 6}; 
-            List<int> b = new List<int> {24, 36};
+            List<int> a = new List<int> { 2, 6 };
+            List<int> b = new List<int> { 24, 36 };
 
             int output = BetweenTwoSets.getTotalX(a, b);
 
             if (output == 2)
             {
-                Console.WriteLine("Test passed!");                
+                Console.WriteLine("Test passed!");
             }
             else
             {
@@ -116,7 +118,7 @@ namespace HackerRankAlgorithms
 
             AppleAndOrange.countApplesAndOranges(s, t, a, b, apples, oranges);
         }
-    
+
         private static void breakingTheRecords()
         {
             List<int> scores = new List<int> { 10, 5, 20, 20, 4, 5, 2, 25, 1 };
@@ -133,7 +135,7 @@ namespace HackerRankAlgorithms
                 Console.WriteLine("Test fail!");
             }
         }
-    
+
         private static void subarrayDivision()
         {
             List<int> s = new List<int> { 2, 2, 1, 3, 2 };
@@ -151,10 +153,10 @@ namespace HackerRankAlgorithms
                 Console.WriteLine("Test fail!");
             }
         }
-    
+
         private static void divisibleSumPairs()
         {
-            List<int> ar = new List<int> {1, 2, 3, 4, 5, 6};
+            List<int> ar = new List<int> { 1, 2, 3, 4, 5, 6 };
             int n = 6;
             int k = 5;
 
@@ -168,6 +170,22 @@ namespace HackerRankAlgorithms
             else
             {
                 Console.WriteLine("Test failed!");
+            }
+        }
+
+        private static void fizzBuzz()
+        {
+            FizzBuzz.fizzBuzz(15);
+        }
+
+        private static void usernameChanges()
+        {
+            List<string> usernames = new List<string> { "foo", "bar", "baz" };
+            List<string> results = UsernameChanges.possibleChanges(usernames);
+
+            foreach (var result in results)
+            {
+                Console.WriteLine(result);
             }
         }
     }
