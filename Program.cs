@@ -20,7 +20,8 @@ namespace HackerRankAlgorithms
             // divisibleSumPairs();
             // fizzBuzz();
             // usernameChanges();
-            longestSubarray();
+            // longestSubarray();
+            migratoryBirds();
         }
 
         private static void birthdayCakeCandlesTest()
@@ -196,6 +197,13 @@ namespace HackerRankAlgorithms
 
             int output = LongestSubarray.longestSubarray(arr);
             Console.WriteLine(output);
+        }
+
+        private static void migratoryBirds()
+        {
+            List<int> birdSightings = new List<int> { 1, 1, 2, 2, 3, 3, 3, 2, 1, 1 };
+            int result = MigratoryBirds.migratoryBirds(birdSightings);
+            Console.WriteLine(result);  // Outputs 1
         }
     }
 }
