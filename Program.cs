@@ -204,6 +204,7 @@ namespace HackerRankAlgorithms
             List<int> birdSightings = new List<int> { 1, 1, 2, 2, 3, 3, 3, 2, 1, 1 };
             int result = MigratoryBirds.migratoryBirds(birdSightings);
             Console.WriteLine(result);  // Outputs 1
+            Console.WriteLine("Test passed!");
         }
     }
 }
